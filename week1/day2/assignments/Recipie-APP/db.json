@@ -1,0 +1,26 @@
+{
+  "dishes": [
+    {
+      "id": "1757015819577"
+    },
+    {
+      "id": "1757015856102"
+    },
+    {
+      "id": "1757016163003",
+      "dish": "upma"
+    },
+    {
+      "id": "1757048192704",
+      "dish": "Idly",
+      "price": 50,
+      "category": "Breakfast"
+    },
+    {
+      "id": "1757048278693",
+      "dish": "Idly Fry",
+      "price": 70,
+      "category": "Breakfast"
+    }
+  ]
+}
