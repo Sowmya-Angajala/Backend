@@ -1,0 +1,48 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 24px;
+    background-color: lightblue;
+}
+
+nav>div {
+    width: 30%;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: flex-end;
+    gap: 2rem;
+}
+
+nav>div>a {
+    text-decoration: none;
+}
+
+nav>h3 {
+    color: blue;
+}
+
+#main {
+    flex: 1;
+}
+
+#main>h1 {
+    text-align: center;
+    color: blue;
+    font-style: italic;
+}
+
+footer {
+    background-color: lightblue;
+    height: 3rem;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 20px;
+
+}

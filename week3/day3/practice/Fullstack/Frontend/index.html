@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 24px;
+}
+nav>div{
+    width: 30px;
+    display: flex;
+    align-items: center;
+    background-color: aquamarine;
+}
+nav>div>a{
+    text-decoration: none;
+}
+nav>h3{
+    color: brown;
+}
+
+#main{
+    flex: 1;
+}
+
+</style>
+</head>
+<body>
+    <div id="navbar"></div>
+    <main id="main">
+        <h3>Welcome to todo app</h3>
+    </main>
+    <div id="footer">
+        
+    </div>
+</body>
+</html>
+<script src="./scripts/index.js" type="module"></script>
