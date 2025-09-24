@@ -1,0 +1,24 @@
+{
+  "name": "redis-cron",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "dotenv": "^17.2.2",
+    "express": "^5.1.0",
+    "mongoose": "^8.18.2",
+    "node-cron": "^4.2.1",
+    "nodemailer": "^7.0.6",
+    "pdfkit": "^0.17.2",
+    "redis": "^5.8.2",
+    "redis-server": "^1.2.2",
+    "uuid": "^13.0.0"
+  }
+}
